@@ -1,0 +1,14 @@
+:root{--bg:#fff6e6;--card:#fffdf8;--ink:#3b2418;--soft:#8a6a56;--red:#e0503e;--gold:#f5b33e}
+@media (prefers-color-scheme:dark){:root{--bg:#1c1426;--card:#2a2030;--ink:#f6e8d8;--soft:#c9b29e;--red:#ff8a78}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.7 "Jua","Apple SD Gothic Neo","Noto Sans KR",system-ui,sans-serif}
+main{max-width:720px;margin:0 auto;padding:40px max(20px,env(safe-area-inset-left))}
+header{display:flex;align-items:center;gap:16px;margin-bottom:28px}
+header img{width:72px;height:72px;border-radius:18px}
+h1{font-size:30px;margin:0;color:var(--red);line-height:1.2}
+h2{font-size:21px;margin:32px 0 8px}
+p,li{color:var(--ink)}
+.sub{color:var(--soft);margin:2px 0 0}
+section{background:var(--card);border-radius:22px;padding:6px 24px 18px;margin:16px 0;box-shadow:0 6px 0 rgba(88,58,40,.08)}
+a{color:var(--red)}
+footer{color:var(--soft);font-size:14px;margin-top:32px}
